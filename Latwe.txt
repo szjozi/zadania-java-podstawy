@@ -1,0 +1,65 @@
+================================== Printowanie w consoli =========================================
+
+1. Wprowadź swoje imię do zmiennej typu String. Wypisz w konsoli „Witaj, <imię>” wykorzystując funkcję System.out.println().
+
+2. Wypisz dwa dowolne łańcuchy znaków jeden pod drugim z wykorzystaniem funkcji System.out.print().
+
+3. Wprowadź dowolną wartość z kilkoma cyframi po przecinku do zmiennej typu double.
+Wyświetl podaną wartość z dokładnością do dwóch miejsc po przecinku. Uzyj funkcji System.out.printf().
+Wyświetl podaną wartość z dokładnością do 4 miejsc po przecinku. Uzyj funkcji System.out.println() oraz String.format().
+
+========================================== Scanner ===============================================
+
+1. Wprowadź swoje imię z poziomu konsoli i zapisz je do zmiennej typu String. Wypisz na konsolę „Witaj, <imię>”.
+2. Wprowadź z poziomu konsoli dwie wartości, dodaj je do siebie i wypisz ich sumę.
+
+==================================================================================================
+
+Wczytaj od użytkownika 3 liczby całkowite i wypisz na ekranie największą oraz najmniejszą z nich.
+Jeśli użytkownik podał 3 takie same liczby to należy wyświetlić stosowany komunikat.
+
+==================================================================================================
+
+Napisz program który na podstawie zmiennej całkowitej "ocena" wyświetli jedna z informacji:
+ 
+ - niezdane
+ - zdane
+ - zdane celująco
+
+uzyj switch condition.
+
+==================================================================================================
+
+
+Zadeklaruj zmienną typu int i przypisać do niej wartość 50
+Zadeklaruj zmienną typu double i przypisać wartość 30.2
+Dokonaj kastowania zmiennej z typu int do typu double i przypisz rezultat konwersji do nowej zmiennej
+Dokonaj kastowania zmiennej z typu double do typu int i przypisać rezultat konwersji do nowej zmiennej
+Wyświetl zmienne
+
+==================================================================================================
+
+1)
+- zdeklarować zmienną o nazie intValue typu int i przypisać do niej wartość 20 
+- następnie zdeklarować zmienną stringValue typu String i przypisać do niej wartość "Java"
+- zdeklarować zmienną doubleValue typu double i przypisać do niej wartość 23.63
+
+- wyświetlić wszystkie zmienne w consoli
+
+2)
+- utworzyć dowolna zmienna typu char
+- utworzyć dowolna zmienna typu long
+- utworzyć dowolna zmienna typu float
+- utworzyć dowolna zmienna typu short
+- utworzyć dowolna zmienna typu byte
+
+- wyświetlić wszystkie zmienne w consoli przy uzyciu System.out.printf(), String.format(), System.err.println();
+
+==================================================================================================
+
+Zadanie polega na napisaniu programu w Javie, w którym użytkownik otrzyma N prób odgadnięcia losowo wygenerowanej liczby.
+Poniżej znajdują się zasady gry: 
+
+Jeśli odgadnięta liczba jest większa niż rzeczywista, program odpowie komunikatem, że odgadnięta liczba jest wyższa niż rzeczywista. 
+Jeśli odgadnięta liczba jest mniejsza niż rzeczywista, program odpowie komunikatem -> liczba jest niższa niż rzeczywista. 
+Jeśli odgadnięta liczba jest równa rzeczywistej liczbie lub jeśli N prób zostanie wyczerpanych, program zakończy się odpowiednim komunikatem. 

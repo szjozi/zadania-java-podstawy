@@ -1,0 +1,31 @@
+
+1. Pobierz liczbe z konsoli - skorzystaj z metody Scannera „nextInt”.
+Przetestuj program dla każdego przypadku (liczba mniejsza, równa lub większa od 300).
+
+===================================================================================================
+
+2. Pobierz z konsoli wartość od 1 do 5.
+Na podstawie otrzymanej wartości wyświetl dowolny znak.
+Na przykład dla numeru 0 wyświetl „*”, dla 1 wyświetl „$” (lub dowolny inny).
+
+===================================================================================================
+
+3. Jak wyżej, ale zamiast wartości operuj na łańcuchach znaków (Stringach).
+Na przykład dla słowa „gwiazdka” wyświetl „*”.
+
+===================================================================================================
+
+4. Jak wyżej, ale po wyświetleniu danego znaku wyświetl wszystkie kolejne możliwości
+(jeśli posiadamy case „gwiazdka”, a kolejny to „dolar”
+to po wpisaniu gwiazdki powinniśmy otrzymać zarówno gwiazdkę, jak i dolar).
+
+===================================================================================================
+
+Wykorzystując instrukcję switch napisz kalkulator realizujący następujące opcje:
+ 
+ - dodawania
+ - odejmowanie
+ - dzielenie 
+ - mnożenie 
+
+Dla chetnych: Obsłuż przypadek w którym wybierając opcje dzielenia użytkownik podał drugą liczbę równą 0.

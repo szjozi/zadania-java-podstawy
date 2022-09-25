@@ -1,0 +1,54 @@
+Napisz program obliczający różnicę pomiędzy największą i najmniejszą wartością z tablicy.
+Tablica wejściowa: [20, 20, 30, 40, 50, 50, 50], 
+wynik: 50 - 20 = 30 
+
+==========================================================================================
+
+Napisz program, który odwróci zawartość tablicy, np.
+
+    [1, 10, 4, 5, 2, 12] -> [12, 2, 5, 4, 10, 1] 
+    [1, 2, 5, 3, 10] -> [10, 3, 5, 2, 1]
+
+
+==========================================================================================
+
+Mając listę liczb oraz liczbę "k", zwróć, czy dowolne dwie liczby z listy sumują się do k. 
+Na przykład, biorąc pod uwagę [10, 15, 3, 7] oraz k=17, zwróć prawdę, ponieważ 10 + 7 to 17.
+
+==========================================================================================
+
+Napisz program, który dla zadanej tablicy typu int zwraca:
+
+a) Największą wartość
+b) Najmniejszą wartość
+c) Sumę wszystkich wartości
+d) *Wartość średnią
+e) *Medianę
+
+==========================================================================================
+
+Napisz program, który zwraca w postaci tablicy zbiór wszystkich liczb mniejszych od zadanej przez użytkownika liczby oraz:
+
+a) Podzielnych przez 2
+b) Podzielnych przez 3
+c) *Podzielnych przez zadaną przez użytkownika liczbę
+
+==========================================================================================
+
+Napisz program usuwający duplikaty z tablicy i zwracający nową tablicę, np.
+Tablica wejściowa: [20, 20, 30, 40, 50, 50, 50], 
+Tablica wyjściowa: [20, 30, 40, 50]
+
+==========================================================================================
+
+Dana jest tablica liczb całkowitych, wypisz:
+
+a) wszystkie po kolei
+b) wszystkie od końca
+c) wszystkie na nieparzystych pozycjach
+d) wszystkie podzielne przez 3
+e) sumę wszystkich
+f) sumę pierwszych 4
+g) sumę ostatnich 5 większych od 2
+h) ilość liczb idąc od początku tablicy, by ich suma przekroczyła 10
+i) itd

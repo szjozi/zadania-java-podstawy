@@ -1,0 +1,60 @@
+1. Napisz metodę, która zwróci Twój aktualny wiek na podstawie daty urodzenia.
+
+2. Napisz metodę "capitalize", która zwróci Twoje imię napisane z duzej litery.
+
+3. Napisz metodę, która jako argument przyjmuje 2 liczby i wypisuje ich sumę, różnicę i iloczyn itd.
+   Napisz metodę, która jako argument przyjmuje varargs liczb i wypisuje ich sumę, różnicę i iloczyn itd.
+
+4. Napisz metodę, która jako argument przyjmuje liczbę i zwraca true jeśli liczba jest parzysta.
+
+5. Napisz metodę, która jako argument przyjmuje liczbę i zwraca true jeśli liczba jest nieparzysta.
+
+6. Napisz metodę, która jako argument przyjmuje liczbę i zwraca true jeśli liczba jest podzielna przez 3 i przez 5.
+
+7. Napisz metodę, która jako argument przyjmuje liczbę i zwraca ja podniesiona do 3 potęgi.
+
+8. Napisz metodę, która jako argument przyjmuje liczbę i zwraca jej pierwiastek kwadratowy.
+(poczytaj javadoc do klasy Math, znajdziesz tam metodę, która na pewno Ci pomoże).
+
+9. Napisz metodę, która jako argument przyjmie trzy liczby.
+Metoda powinna zwrócić true jeśli z odcinków o długości przekazanych w argumentach można zbudować trójkąt prostokątny.
+
+10. Napisz metode "toUpperCase" ktora przyjmuje string i zamienia go na duze litery.
+
+11. Napisz metode "toLowerCase" ktora przyjmuje string i zamienia go na male litery.
+
+
+12. Napisz metode "csvLineSplitter" ktora przyjmuje string reprezentujacy rekord z pliku CSV i dzieli go na kolumny (zamienia na String[] array).
+
+e.g. 
+
+"ProductId;ProductName;Price"
+"1234;Bike;1300$"
+
+|-----------|-------------|-------|
+| productId | productName | price |
+|-----------|-------------|-------|
+|      1234 | Bike        | 1300$ |
+|-----------|-------------|-------|
+
+
+13. Napisz metodę "public static boolean isPalindrome(int number)"
+Sprawdzającą czy podana liczba jest palindromem (pisana od początku i od końca jest taka sama).
+
+
+14. Napisz metodę "public static void minutesInYears(long minutes)"
+Przekształcającą podaną liczbę minut w liczbę lat, dni, godzin i pozostałych minut.
+
+
+15. Napisz metodę "public static boolean isLeapYear(int year)"
+Sprawdzającą czy rok jest przestępny (podzielny przez 4 ale nie przez 100 lub podzielny przez 400). Jeśli podany rok będzie spoza zakresu 1 – 9999, metoda
+ma zwrócić false. 
+
+16. Napisz metodę "public static int getDaysInMonth(int month, int year)"
+Zwracającą ilość dni w miesiącu. Wykorzystaj wcześniej napisaną metodę isLeapYear.
+Jeśli numer miesiąca jest spoza zakresu 1 – 12, zwróć -1.
+
+17. Napisz metodę "public static boolean isPerfectNumber(int year)"
+Sprawdzającą czy podana liczba jest równa sumie wszystkich jej dzielników mniejszych od niej samej.
+Np. 6 jest podzielne przez 1, 2, 3 i 1+2+3=6
+

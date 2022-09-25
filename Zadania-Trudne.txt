@@ -1,0 +1,60 @@
+------------- Zadania zaawansowane -------------
+
+Zadanie 1
+
+Mając tablicę o rozmiarze n, znajdź element większościowy.
+Element większościowy to element, który pojawia się więcej niż floor(n/2) razy.
+Możesz założyć, że tablica nie jest pusta, a element większościowy zawsze istnieje w tablicy.
+
+Przykład -> Wejście : [2, 1, 2] Return : 2, który występuje 2 razy i jest większy niż 3/2.
+
+
+Zadanie 2
+
+Posortowana tablica liczb całkowitych została obrócona nieznaną liczbę razy.
+Mając taką tablicę, znajdź indeks elementu w tablicy w czasie krótszym niż czas liniowy.
+Jeśli element nie istnieje w tablicy, zwróć -1. (Podpowiedz: binary search)
+
+Na przykład, mając tablicę [13, 18, 25, 2, 8, 10] i element 8, zwróć 4 (indeks 8 w tablicy).
+
+
+Zadanie 3
+
+MegaCorp chce przyznawać swoim pracownikom premie na podstawie liczby napisanych przez nich linijek kodu.
+Chcieliby dać każdemu pracownikowi jak najmniejszą dodatnią kwotę, zgodnie z ograniczeniem,
+że jeśli programista napisał więcej linii kodu niż jego sąsiad, powinien otrzymać więcej pieniędzy.
+Mając tablicę reprezentującą liczbę napisanych linii kodu pracowników w MegaCorp, określ, ile każdy z nich powinien otrzymać.
+
+Na przykład, mając dane [10, 40, 200, 1000, 60, 30], należy zwrócić [1, 2, 3, 4, 2, 1].
+
+
+Zadanie 4
+Wskaż liczbę o 1 większą od reprezentowanej liczby przez cyfry w tablicy.
+np. [1,3,2,4] -> 1324 + 1 -> [1,3,2,5]
+
+
+Zadanie 5
+Na podstawie dwóch podanych tablic [-1,3,8,2,9,5] [4,1,2,10,5,20] 
+znajdź pary liczb których suma jest równa liczbie n=24.
+
+
+Zadanie 6 
+Znajdź element szczytowy w tablicy dwuwymiarowej.
+Element jest elementem szczytowym, jeśli jest większy lub równy swoim czterem sąsiadom, lewym, prawym, górnym i dolnym.
+Na przykład sąsiedzi dla A[i][j] to A[i-1][j], A[i+1][j], A[i][j-1] i A[i][j+1].
+W przypadku elementów krańcowych są uważane za ujemną nieskończoną wartość.
+
+Wejście : 10 20 15 21 30 14 7 16 32 Wyjście : 30
+Wejście : 10 7 11 17 Wyjście : 17
+
+
+Zadanie 7
+Mając macierzy składającą się z N wierszy i M kolumn,
+zadaniem jest znalezienie minimalnej różnicy bezwzględnej między dowolnymi dwoma sąsiadującymi elementami tablicy o rozmiarze N,
+która jest tworzona przez pobranie jednego elementu z każdego wiersza macierzy.
+Zauważ, że element wybrany z rzędu 1 stanie się arr[0], element pobrany z rzędu 2 stanie się arr[1] i tak dalej.
+
+Wejście : N = 2, M = 2 m[2][2] = { 8, 2, 6, 8 } Wyjście : 0.
+Wejście : N = 3, M = 3 m[3][3] = { 1, 2, 3 4, 5, 6 7, 8, 9 } Wyjście : 1.
+
+

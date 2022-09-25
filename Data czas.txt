@@ -1,0 +1,17 @@
+===================================================================================================
+
+Napisz program listujacy wszystkie mozliwe Time Zones.
+
+===================================================================================================
+
+Napisz program zwracajacy lokalny czas w Sydney, Nowym Yorku, Canadzie oraz Londynie.
+
+===================================================================================================
+
+Sprawdź czy data ma poprawny format dzień-miesiąc-rok, np. 01-01-2020 uwzględniające walidację dni miesiąca i wartości miesiące
+
+===================================================================================================
+
+Napisz program który wyświetli zadaną datę w formacie: 
+-> godzina::minuta dzien-miesiąc-rok 
+-> hh:mm:ss a dzien miesiąc rok 

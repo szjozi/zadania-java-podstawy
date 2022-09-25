@@ -1,0 +1,38 @@
+1. Pobierz liczbe z konsoli - skorzystaj z metody Scannera „nextInt”.
+Przetestuj liczbe dla każdego przypadku (liczba mniejsza, równa lub większa od 10).
+
+===================================================================================================
+
+2. Pobierz z konsoli wartość od 0 do 9. Na podstawie otrzymanej wartości wyświetl dowolny znak.
+Na przykład dla numeru 0 wyświetl „*”, dla 1 wyświetl „$” (lub dowolny inny).
+
+===================================================================================================
+
+3. Jak wyżej, ale zamiast wartości operuj na łańcuchach znaków (Stringach).
+Na przykład dla słowa „gwiazdka” wyświetl „*”.
+
+===================================================================================================
+
+
+1. Napisz prosty kalkulator, który:
+
+a) Przyjmuje dwie wartości x i y, zwraca ich sumę oraz różnicę.
+Wykorzystaj funkcję printf albo String.format tak, aby znak „=„ i
+„+” oraz „-” były w tym samym miejscu jeden pod drugim.
+Nie używaj metody nextInt().
+
+b) j/w + podawanie informacji, czy chcemy, aby dokonać dodawania,
+czy odejmowania poprzez napisanie „suma” lub „różnica”.
+Wykorzystaj instrukcję warunkową if-else
+
+c) j/w + użytkownik może zdecydować jaką operację chce wykonać uwzględniając mnożenie i dzielenie.
+Wykorzystaj instrukcję warunkową switch-case
+
+d) j/w + skorzystaj z „ternary operator” zamiast standardowej instrukcji if-else
+
+e) obsłuż sytuację, w której użytkownik poda wartość 0 podczas dzielenia.
+
+
+2. Napisz program, który pozwoli określić, czy wprowadzona przez użytkownika liczba:
+ a) Jest parzysta
+ b) Jest podzielna przez drugą podaną liczbę

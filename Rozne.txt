@@ -1,0 +1,83 @@
+Napisać program, który wczytuje od użytkownika ciąg znaków,
+a następnie wyświetla informację o tym ile razy w tym ciągu powtarza się jego ostatni znak.
+Przykład, dla ciągu „Abrakadabra" program powinien wyświetlić 4,
+ponieważ ostatnim znakiem jest literka „a", która występuje w podanym ciągu łącznie 4 razy.
+
+==================================================================================================
+
+- Zdeklaruj zmienną "fahrenheitTemp" typu float a następnie  
+przekształć ta wartosc na stopnie Celsjusza i przypisz do zmiennej "celsiusTemp".
+
+Wzory:
+---------------------
+°C = (°F - 32) × 5/9
+
+°F = °C × (9/5) + 32
+---------------------
+
+
+- Napisz prosty converter temperatury.
+- Zapytaj o rodzaj konwersji °F to °C lub °C to °F.
+- Pobierz wartość float jako input uzytkownika.
+- Wyświetl wynki konwersji.
+
+===================================================================================================
+
+Napisać program obliczający należny podatek dochodowy od osób fizycznych. 
+Program ma pobierać od użytkownika dochód i po obliczeniu wypisywać na ekranie należny podatek. 
+
+Podatek obliczany jest wg. następujących reguł: 
+- do 85.528 podatek wynosi 18% podstawy minus 556,02 PLN, 
+- od 85.528 podatek wynosi 14.839,02 zł + 32% nadwyżki ponad 85.528,00 
+
+===================================================================================================
+
+Napisz program, który oblicza wartość współczynnika BMI (ang. Body Mass Index) 
+
+---------------------------
+    Wzór: waga/wzrost^2
+---------------------------
+
+Jeżeli wynik jest w przedziale (18,5 - 24,9) to wypisuje "waga prawidłowa",
+jeżeli poniżej to "niedowaga", jeżeli powyżej "nadwaga".
+
+===================================================================================================
+
+Napisz program, który pobierze od użytkownika średnicę okręgu (zmienną typu float)
+i obliczy obwód tego okręgu. Do obliczeń przyjmij najpierw π = 3.14,
+a następnie skorzystaj z wbudowanej klasy Math i znajdującej się tam stałej PI.
+
+===================================================================================================
+
+1. Wewnątrz pętli while (np. 5 razy) pobieraj produkt do kupienia i wprowadzaj go do utworzonej tablicy typu String.
+Wyświetl wszystkie produkty z wykorzystaniem pętli for, for each, oraz while.
+
+2. Utwórz tablicę przechowującą wartości typu int o rozmiarze zadanym z konsoli.
+Wypełnij ją wartościami wewnątrz pętli for. Zwróć sumę tych wartości.
+
+3. Stwórz tablicę zawierającą 5 imion. Wewnątrz pętli for-each polacz imiona zapisujac je w zmiennej typu String, oddzielając je przecinkami.
+Wyświetl utworzony łańcuch znaków. Np. „Małgorzata, Jan, Jakub”.
+
+4. Jak wyżej, ale dopisuj tylko imiona, które składają się z mniej, niż 5 znaków.
+
+===================================================================================================
+
+1. Napisz aplikację, która:
+
+a) Będzie posiadała tablicę jednowymiarową składającą się z 3 elementów typu String: kombinerek, nożyczek i śrubokrętu.
+b) Pobierze imię użytkownika.
+c) Wypisze na ekran: „Witaj <imię>! W naszej ofercie mamy: ” + lista elementów z tablicy produktów zdefiniowanych w podpunkcie a,
+każdy w nowej linii zaczynający się od myślnika + „Co chciałbyś kupić?”
+d) Za pośrednictwem pętli oraz switch – case przeanalizuj wybór użytkownika, dla opcji default wypisz „Takiego produktu nie mamy w ofercie”
+e) Dla prawidłowego wyboru usuń dany element z tablicy i potwierdź użytkownikowi wybrany produkt.
+f) Potwierdź usunięcie elementu z listy poprzez jej ponowne wyświetlenie.
+g) *Imię użytkownika przekaż przez Varargs jako pierwszy parametr.
+h) *Produkty do kupienia również.
+i) W przypadku błędnego wyboru produktu pozwól na ponowny wybór tak długo, aż użytkownik nie napisze „do widzenia”
+
+
+
+
+
+
+

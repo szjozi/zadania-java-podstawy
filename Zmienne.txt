@@ -1,0 +1,24 @@
+
+Utworz dowolna zmienna typu byte.
+Utworz dowolna zmienna typu short.
+Utworz dowolna zmienna typu char.
+Utworz dowolna zmienna typu int.
+Utworz dowolna zmienna typu long.
+Utworz dowolna zmienna typu float.
+Utworz dowolna zmienna typu double.
+Utworz dowolna zmienna typu boolean.
+
+Wypisz wszystkie utworzone zmienne w konsoli za pomoca System.out.println();
+
+================================================================================
+
+Utworz najwyzsza oraz najnizsza mozliwa zmienna typu byte.
+Utworz zmienna typu char i przypisz do niej liczbe wieksz od 32 i mniejsza od 127, wypisz zmienna w konsoli.
+
+================================================================================
+
+Zamine dowolna zmienna typu char na int.
+Utworz zmienna typu int i dokonaj castowania na short oraz byte.
+Utworz zmienna typu char i dokonaj castowania na byte oraz short.
+Utworz zmienna typu long i dokonaj castowania na int, short oraz byte.
+Utworz zmienna typu double i dokonaj castowania na float.

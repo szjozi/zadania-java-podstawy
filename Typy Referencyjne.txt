@@ -1,0 +1,37 @@
+
+================================================================================
+
+Utworz obiekt typu Byte uzywajac funkcji Byte.valueOf();
+Utworz obiekt typu Short uzywajac funkcji Short.valueOf();
+Utworz obiekt typu Integer uzywajac funkcji Integer.valueOf();
+Utworz obiekt typu Long uzywajac funkcji Long.valueOf();
+Utworz obiekt typu Character uzywajac funkcji Character.valueOf();
+Utworz obiekt typu Float uzywajac funkcji Float.valueOf();
+Utworz obiekt typu Double uzywajac funkcji Double.valueOf();
+Utworz obiekt typu Boolean uzywajac funkcji Boolean.valueOf();
+Utworz obiekt typu String uzywajac funkcji String.valueOf();
+
+================================================================================
+
+Uzyj obiekty z uzyciem funkcji parse.
+
+Byte.parseByte()
+Short.parseShort()
+Integer.parseInt()
+Long.parseLong()
+Float.parseFloat()
+Double.parseDouble()
+Boolean.parseBoolean()
+
+** String i Character nie posiadaj tej funkcji.
+
+================================================================================
+
+Dokonaj autoboxingu i unboxingu dla wszytkich podanych typow:
+- Byte
+- Short
+- Integer
+- Long
+- Float
+- Double
+- Boolean

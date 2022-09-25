@@ -1,0 +1,75 @@
+Wewnątrz pętli for (np. 3 razy) pobieraj produkt do kupienia i wyświetlaj go na ekran w postaci:
+„Dodałem do koszyka <nazwa>, to nasz <numer iteracji> produkt!”
+
+================================================================================
+
+Stwórz pętle for, która wykona 3 iteracje.
+Wewnątrz pętli pobieraj z konsoli dowolną wartość typu int.
+Po wyjściu z pętli zwróć sumę tych wartości.
+
+================================================================================
+
+Stwórz pętle wewnątrz pętli (pamiętaj o różnych nazwach zmiennych iterujących!).
+Wyświetl wartości iteratorów w postaci: „<iterator nr 1> : <iterator nr 2>”.
+
+================================================================================
+
+a) Wyświetl kwadrat składający się z samych gwiazdek „*”,
+których liczba (długość boku kwadratu) będzie równa podanej z konsoli wartości.
+
+b) Jak wyżej, ale znak, z którego będzie składał się kwadrat, również pobierz z konsoli.
+
+=============================== Pętle while ====================================
+
+1. Wewnątrz pętli while (np. 3 razy) dowolne dane przy uzyciu Scannera i wyświetlaj w konsoli:
+<numer iteracji>. Dane: <Twoje pobrane dane>
+
+2. Stwórz pętle while, która wykona 3 iteracje.
+Wewnątrz pętli pobieraj z konsoli dowolną wartość typu int.
+Po wyjściu z pętli zwróć średnia tych wartości.
+
+3. Wewnątrz pętli while (np. 3 razy) pobierz dowolna liczbe. Zwróć sumę wartości liczb parzystych oraz liczb nieparzystych
+
+4. Pobieraj i wyświetlaj dowolny ciąg znaków od użytkownika tak długo, aż nie napisze „exit” uzyj petli do while.
+
+================================================================================
+
+Napisz program wyświetlający poniższy wzór w zależności do zadanej wartości:
+
+n=4 
+1 
+22 
+333 
+4444 
+
+n=5 
+1 
+22 
+333 
+4444 
+55555 
+
+================================================================================
+
+Napisać program rysujący w konsoli „choinkę” złożoną ze znaków gwiazdki (*). 
+Użytkownik programu powinien podać liczbę całkowitą n, n > 0, określającą wysokość choinki (liczbę wierszy). 
+Przykład: dla n = 5 wynik powinien wyglądać następująco: 
+
+    * -> 4 spacje, 1 gwiazdka 
+    *** -> 3 spacje, 3 gwiazdki 
+    ***** -> 2 spacje, 5 gwiazdek 
+    ******* -> 1 spacja, 7 gwiazek 
+    ********* -> 0 spacji, 9 gwiazdek
+
+================================================================================
+
+Na podstawie zadanych z konsoli wartości oraz znaku (*, $, #...) narysuj:
+1. Kwadrat pusty w środku (wyłącznie krawędzie).
+2. Prostokąt pusty w środku.
+3. Literę „L”, o krawędziach równej długości.
+4. *Trójkąt prostokątny.
+5. *Jak punkt 1, ale najpierw wprowadź wszystkie elementy do tablicy dwuwymiarowej, a dopiero później je wyświetl.
+6. *Kwadrat pusty w środku z jedną przekątną
+7. **Kwadrat pusty w środku z dwiema przekątnymi.
+
+================================================================================

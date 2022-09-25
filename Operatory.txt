@@ -1,0 +1,30 @@
+
+Utworz dwie zmienne typu int i wykonaj nastepujace czynnosci:
+
+- ( + ) dodawanie 
+- ( - ) odejmowanie 
+- ( * ) mozenie 
+- ( / ) dzielenie 
+- ( % ) modulo 
+
+================================================================================
+
+Porownanaj ze soba dwie zmienne typu long za pomoca operatorow " == " oraz " != ".
+
+================================================================================
+
+Utwórz dwie zmienne typu boolean:
+
+a) przypisz wynik rownania logicznego <boolean1> && <boolean2> do zmiennej i sprawdz ja w konsoli
+b) przypisz wynik rownania logicznego <boolean1> || <boolean2> do zmiennej i sprawdz ja w konsoli
+
+================================================================================
+
+Utwórz dwie zmienna typu long:
+a) i sprawdz czy liczba jest parzysta <long> % 2 == 0
+b) podzielna przez 3
+c) podzielna przez 5 
+  
+================================================================================
+
+Napisz własną funkcję realizującą potęgowanie bez użycia operatorów mnożenia i dzielenia.

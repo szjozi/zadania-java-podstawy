@@ -1,0 +1,67 @@
+
+Utworz trzy Stringi dwa za pomoca string literals i jeden za pomoca konstruktora.
+Przypisz do nich dowolne imie - do kazdego takie samo!
+Porownaj string kazdy z kazdym za pomoca operatora " == " oraz za pomoca metody .equals().
+Wyniki wypisz w konsoli.
+Zmien przypisane imie by bylo inne dla kazdej referencji i znow wypisz wyniki w konsoli.
+
+
+================================================================================
+
+Napisz program ktory odnajduje pojedynczy znak w Stringu po indexe;
+
+"SuperDuperString" -> index 5 = 'r'
+"SuperDuperString" -> index 6 = 'D'
+
+
+================================================================================
+
+Napisz program obliczjacy dlugosc danego Stringa. Nie uzywaj lenght()!
+Napisz program porownujacy dwa Stringi bez uzywania equals().
+Napisz program tworzacy nowy String z danego char[].
+Napisz program testujacy czy string zaczyna sie danym znakien.
+Napisz program testujacy czy string konczy sie danym znakien.
+Napisz program zamieniajacy String na char[] (bez uzycia toCharArray()).
+Napisz program zwracajacy index danej litery w alfabecie.
+Napisz program zamieniajacy wszystkie wystapienia podanego 'char' w stringu.
+Napisz program ktory zwroci podana czesc Stringa startIndex do endIndex.
+
+Napisz program ktory usunie wszystkie spacie z (nie uzywaj methody .trim()):
+- konca Stringa
+- z poczatku Stringa
+- z poczatku i konca
+
+Napisz program ktory odwraca stringa "Kasia" -> "aisaK".
+
+================================================================================
+
+Napisz program zamieniajacy char na jego numeryczny odpowiednik z tablicy ASCII.
+Napisz program zamieniajacy kazdy char w Stringu na jego numeryczny odpowiednik z tablicy ASCII.
+
+================================================================================
+
+Napisz mechanizm szyfrujący i deszyfrujący wykorzystujący szyfr cezara (https://pl.wikipedia.org/wiki/Szyfr_Cezara) 
+
+Tekst jawny: MĘŻNY BĄDŹ, CHROŃ PUŁK TWÓJ I SZEŚĆ FLAG 
+Tekst zaszyfrowany: OHBÓŻ DĆFĄ, EKTRP ŚZŃM YŹSŁ L UAGWĘ INCJ 
+
+=================================================================================
+
+Korzystając z StringBuilder napisz program, który wczytuje od użytkownika ciąg znaków,
+a następnie tworzy łańcuch będący odwróceniem podanego łańcucha i wyświetla go na ekranie.
+Przykładowo, dla łańcucha „Kot" wynikiem powinien być łańcuch „toK".
+
+=================================================================================
+
+Napisz program, który „się jąka”, to znaczy pobiera użytkownika tekst (zmienną typu String),
+a następnie wypisuje podany tekst, w którym każde słowo wypisane jest po dwa razy.
+
+Przykładowo, dla wejścia: 
+„To jest mój test” program powinien wypisać „To To jest jest mój mój test test”.
+
+=================================================================================
+
+W podanym ciągu znaków znajdź najdłuższy podciąg składający
+się z jednego znaku: AABCDDBBBEA -> “B:3”
+
+=================================================================================

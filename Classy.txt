@@ -1,0 +1,115 @@
+Zadanie
+
+Napisz klasę Box, które będzie przechowywać elementy dowolnego typu, np. int, String
+
+================================================================================
+
+Zadanie
+
+1) Napisz klasę Person
+
+Z polami:
+
+- firstName    ->     STRING
+- lastName     ->     STRING
+- age          ->     NUMBER
+- gender       ->     STRING
+
+2) Dopisz construktor:
+
+- bezparametrowy
+- dla wszystkich parametrów
+
+
+3) Dopisz settery i gettery dla wszystkich pól.
+
+4) Dopisz metodę public boolean isRetired() sprawdzającą czy osoba jest emerytem (kobieta powyżej 65 lat, mężczyzna powyżej 67)
+
+5) Przeładuj metodę toString() aby wyświetlić wszystkie informacje o danej osobie.
+
+6) Dodaj metody .equals() and .hashcode()
+
+Na kilku przykładach sprawdź działanie klasy:
+
+- utwórz 3 obiekty typu Person (dwa takie same i jeden inny)
+- porównaj obiekty kazdy z kazdym za pomoca .equals() 
+- wypisz do konsoli "hashcode" wszystkich obiektow
+
+================================================================================
+
+Zadanie
+
+Napisz klasę Box, które będzie przechowywać elementy dowolnego typu, np. int, String 
+Na podstawie klasy Box stwórz obiekt oraz nową referencję do tego samego obiektu, zaprezentuj modyfikacje na dowolnej referencji.
+Napisz mechanizm, który stworzy nową niezależną kopię obiektu Box stworzonej w podpunkcie powyżej.
+
+================================================================================
+
+Zadanie
+
+Napisz Enum Department.
+Dodaj ponizsze instancje do eunumu:
+- HR
+- BRANDING
+- SALES
+- MARKETING
+- ADMINISTRATION
+- HEAD
+- IT
+
+dodaj pole "departmentId" typu int oraz konstruktor przyjmujacy departmentId jako parametr.
+================================================================================
+
+Zadanie
+
+Napisz klase Address.
+Dodaj pola street, city, postcode 
+Dodaj setery, gettery oraz metode toString()
+================================================================================
+
+Zadanie
+
+Napisz klase Employee.
+Dodaj pola id, name, surname, pesel, address typu Address department, 
+Dodaj setery, gettery oraz metode toString()
+
+================================================================================
+Zadanie
+
+Napisz klase Company.
+Dodaj pola 'id', name oraz adreess typu Address oraz employees jako ArrayList.
+Dodaj setery, gettery oraz metode toString()
+================================================================================
+
+Zadanie
+
+Napisz Enum EmployeeRole.
+Dodaj ponizsze instancje do eunumu:
+- TEAM_LEADER
+- JAVA_DEVELOPER
+
+================================================================================
+
+Zadanie
+
+Do klasy Employee dodaj pole employeeRole typu EmployeeRole
+
+Napisz klasy TeamLeader i Developer, ktore dziedziczy po klasie Employee
+Dodaj setery, gettery oraz metode toString()
+
+================================================================================
+
+Zadanie
+
+Zmodyfikuj klase Employee by byla klasa abstrakcyjna.
+Dodaj abstrakcyjna metode printEmployeeRole().
+
+================================================================================
+
+Zadanie
+
+Napisz interface Workable 
+Dodaj abstrakcyjna metode doWork().
+Zaimplemntuj interfejs w klasie Employee
+
+
